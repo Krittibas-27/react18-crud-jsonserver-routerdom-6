@@ -1,0 +1,47 @@
+{
+  "employee": [
+    {
+      "employeename": "Alita22 Watson",
+      "email": "utest@yahoo.com",
+      "phone": "98745468521",
+      "technology": [
+        {
+          "value": "angular",
+          "label": "Angular"
+        },
+        {
+          "value": "node",
+          "label": "Node"
+        },
+        {
+          "value": "react",
+          "label": "React"
+        }
+      ],
+      "gender": "female",
+      "active": true,
+      "id": "5dc2a99d-545e-4580-9733-0f7ede1c8ec3"
+    },
+    {
+      "employeename": "John Vogan",
+      "email": "john_vogan@yahoo.com",
+      "phone": "98745468520",
+      "technology": [
+        {
+          "value": "node",
+          "label": "Node"
+        }
+      ],
+      "gender": "male",
+      "active": false,
+      "id": "40e5a1ab-4d05-4512-bb13-bf6ce3995271"
+    },
+    {
+      "id": "1699684518280",
+      "employeename": "Ram Das1",
+      "email": "ram1@gmail.com",
+      "phone": "+91 791 675 8914",
+      "gender": "others"
+    }
+  ]
+}
