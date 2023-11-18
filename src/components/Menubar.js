@@ -11,6 +11,7 @@ const Menubar = () => {
           <Nav className="ml-auto">
             <Nav.Link href="/usertodo">User Todo</Nav.Link>
             <Nav.Link href="/jsonserver/dbemploy">DB Employ</Nav.Link>
+            <Nav.Link href="/regexvalidation">Regex Validation</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

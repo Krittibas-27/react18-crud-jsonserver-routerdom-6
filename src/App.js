@@ -6,6 +6,7 @@ import Dbemploy from './components/Dbemploy';
 import DbEmployDetails from './components/jsonservercrud/DbEmployDetails';
 import EditEmployee from './components/jsonservercrud/EditEmployee';
 import AddEmployee from './components/jsonservercrud/AddEmployee';
+import RegexValidatio from './components/RegexValidation';
 
 const App =()=>{
   return (
@@ -17,6 +18,7 @@ const App =()=>{
       <Route exac path='/jsonserver/dbemploy/:eid' element={<DbEmployDetails />} />
       <Route exac path='/jsonserver/dbemploy/create' element={<AddEmployee/>} />
       <Route exac path='/jsonserver/dbemploy/edit/:eid' element={<EditEmployee/>} />
+      <Route exac path='/regexvalidation' element={<RegexValidatio/>} />
     </Routes>
     </>
   )
